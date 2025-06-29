@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmolModels Blog</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            font-weight: 600;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            font-weight: 600;
+        }
+        p {
+            margin-bottom: 1.5em;
+            font-size: 16px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 2em 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f6f8fa;
+        }
+    </style>
+</head>
+<body>
+    <h1>SmolXXX and Other Small Models</h1>
+
+    <p>The landscape of small, efficient multimodal models has seen a rapid evolution with the introduction of SmolVLM and its successor, SmolVLM2. While both models are designed for resource-constrained environments, SmolVLM2 represents a significant advancement, primarily in its robust and dedicated video understanding capabilities, marking a shift from a primarily image-focused model to a "video-first" powerhouse in the compact AI space.</p>
+    
+    <h2>Architectures</h2>
+    <h3>Frozen Architecture</h3>
+    <img src="images/frozen_architecture.png" alt="Frozen Architecture Diagram" style="max-width: 50%; height: auto; margin: 2em auto; display: block; border: 1px solid #ddd; border-radius: 4px;">
+
+    <h3>Flamingo Architecture</h3>
+    <p>
+        <a href="docs/Flamingo- a Visual Language Model for Few-Shot Learning.pdf">Flamingo paper</a>
+    </p>
+    <p>
+        Flamingo is a multimodal model that can process both visual and textual data. 
+        It is a frozen model, which means that the model is not trained on any new data.
+        It introduces cross-attention layers that allow the model to attend to both visual and textual information, 
+        enabling more sophisticated multimodal reasoning.
+         The architecture also includes a perceiver resampler that helps process variable-length visual inputs efficiently.
+    </p>
+    <img src="images/flamingo_architecture.png" alt="Flamingo Architecture Diagram" style="max-width: 70%; height: auto; margin: 2em auto; display: block; border: 1px solid #ddd; border-radius: 4px;">
+    
+    <h3>Grounding Language Models to Images for Multimodal Inputs and Outputs</h3>
+    <p>
+        <a href="docs/Grounding Language Models to Images for Multimodal Inputs and Outputs.pdf">
+            Grounding Language Models to Images for Multimodal Inputs and Outputs</a>
+    </p>
+    <P><strong>From the abstract</strong>: We propose an efficient method to ground pretrained text-only language models to the visual
+        domain, enabling them to process arbitrarily interleaved image-and-text data, and generate text
+        interleaved with retrieved images. 
+    </P>
+    <img src="images/Ground_fig1.png" alt="Grounding Language Models to Images for Multimodal Inputs and Outputs" style="max-width: 30%; height: auto; margin: 2em auto; display: block; border: 1px solid #ddd; border-radius: 4px;">
+    <img src="images/Ground_fig2.png" alt="Grounding Language Models to Images for Multimodal Inputs and Outputs" style="max-width: 70%; height: auto; margin: 2em auto; display: block; border: 1px solid #ddd; border-radius: 4px;">
+
+</body>
+</html>
+
