@@ -1,6 +1,12 @@
 # SmolModels
 
+## Research Roadmap
 
+This is the list of models we would like to check by their order:
+
+1. SmolVLM
+1. SmolVLM2
+1. Idefics3 
 
 ## SmolVLM vs. SmolVLM2: A Leap in On-Device Video Understanding
 

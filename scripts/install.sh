@@ -11,7 +11,7 @@ echo "hf caches: $HOME/.cache/huggingface"
 ls -la $HOME/.cache/huggingface
 
 # install huggingface-hub huggingface-cli transformers datasets
-pip install huggingface-hub huggingface_hub[cli] transformers datasets
+pip install huggingface-hub huggingface_hub[cli] transformers datasets jupyter
 
 # Show the installed packages
 pip freeze > $BASE_DIR/requirements.txt
